@@ -15,4 +15,4 @@ The goal of [Probabilities of Qwirkle Hand Values](https://www.tandfonline.com/d
 This method calculates the exact probabilites by considering all (108 Choose 6) posssible starting hands. It takes approximately 30 min to run on a macbook PRO with an M1 chip.
 
 ### qwirkle_combo_efficient.m
-This method calculates the exact probabiliites using a combinatorial shortcut. It takes advantage of the combinatorial multiplicity due to there being three tiles for each color-shape combination. It runs very fast.
+This method calculates the exact probabiliites using a combinatorial shortcut. It takes advantage of the combinatorial multiplicity that arises from there being three tiles for each color-shape combination. It runs very fast.
