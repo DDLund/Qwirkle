@@ -12,7 +12,7 @@ Points are gained by placing tiles in a grid so that each row/column has matchin
 The goal of [Probabilities of Qwirkle Hand Values](https://www.tandfonline.com/doi/abs/10.1080/07468342.2018.1490592?journalCode=ucmj20) is to calculate the probability that a starting hand has a particular "score". Below are exact computations of the probabilities.
 
 ### qwirkle_brute_force.m
-This method calculates the exact probabilites by considering all (108 Choose 6) posssible starting hands. It takes approximately 30 min to run on a macbook PRO with an M1 chip.
+This method calculates the exact probabilites by considering all $_108 C_6$ posssible starting hands. It takes approximately 30 min to run on a macbook PRO with an M1 chip.
 
 ### qwirkle_combo_efficient.m
 This method calculates the exact probabiliites using a combinatorial shortcut similar to methods in the paper. It takes advantage of the combinatorial multiplicity that arises from there being three tiles for each color-shape combination. It runs very fast.
